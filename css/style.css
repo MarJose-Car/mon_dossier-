@@ -1,0 +1,43 @@
+/* Lien google fonte
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap'); */
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/*-------------------------------------------
+         style global du document 
+---------------------------------------------*/
+
+/*-------------------------------------------
+        style du corps du document
+---------------------------------------------*/
+body {
+    background: rgb(243, 188, 243);
+}
+/*-------------------------------------------
+       style pour l'en-tête 
+---------------------------------------------*/
+header {
+    background: rgb(231, 148, 139);
+}
+.logo {
+    display: flex;
+    justify-content: right;
+    margin-right: 30px;
+    height: 40px;
+    line-height: 40px;
+}
+/*-------------------------------------------
+       style pour le menu
+---------------------------------------------*/
+nav {
+    background: rgb(212, 231, 182);
+}
+nav a {
+    text-decoration: none;
+}
+.menu {
+    text-align: center;
+}
+
+
